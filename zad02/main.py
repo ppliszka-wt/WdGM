@@ -162,3 +162,5 @@ if __name__ == '__main__':
     obraz7.save("obraz7.jpg")
 
     # Na oko: Obraz z zadania 5 wydaję się być ciemniejszy niż obraz z Zadania 7 oraz posiada niebieską poświatę
+    # Sposób na porównanie to sprawdzenie czy obrazy są dokładnym negatywem siebie
+    print(np.array_equal(c, 255 - r))
